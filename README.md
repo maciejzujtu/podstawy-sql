@@ -98,8 +98,8 @@ FROM            Employees;
 
 #### 7.2 Sortowanie (`ORDERY BY`)
 Definiuje kolejność wyświetlania wierszy.
-- `ASC` (domyślnie) – rosnąco (A-Z, 0-9).
-- `DESC` – malejąco (Z-A, 9-0).
+- `ASC` sortuj (domyślnie) rosnąco (A-Z, 0-9).
+- `DESC` sortuj malejąco (Z-A, 9-0).
 ```sql
 -- Pracownicy posortowani alfabetycznie od Z do A
 SELECT      LastName 
@@ -111,8 +111,8 @@ ORDER BY    LastName DESC;
 
 Służy do ograniczenia liczby zwracanych wierszy (np. "Top 5") lub stronicowania wyników.
 
-- `LIMIT X` – pokaż **X** wierszy.
-- `OFFSET Y` – pomiń pierwsze **Y** wierszy.
+- `LIMIT X` pokaż **X** wierszy.
+- `OFFSET Y` pomiń pierwsze **Y** wierszy.
 
 ```sql
 -- Pokaż 5 pracowników, ale pomiń pierwszych 10
