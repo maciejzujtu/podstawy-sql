@@ -107,7 +107,7 @@ FROM        Employees
 ORDER BY    LastName DESC;
 ```
 
-#### 7.3. Limitowanie wyników (LIMIT i OFFSET)
+#### 7.3. Limitowanie wyników (`LIMIT` i `OFFSET`)
 
 Służy do ograniczenia liczby zwracanych wierszy (np. "Top 5") lub stronicowania wyników.
 
