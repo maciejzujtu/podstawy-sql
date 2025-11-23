@@ -69,6 +69,7 @@ Widzimy, że wspólnym atrybutem obu tabel jest kolumna `DepartmentID`, która w
 - `INNER JOIN` będący iloczynem zbioru **A** oraz **B**.
 - `RIGHT JOIN` będący całością zbioru **B**, do którego dołączamy pasujące elementy ze zbioru **A**.
 - `LEFT JOIN` będący całością zbioru **A**, do którego dołączamy pasujące elementy ze zbioru **B**.
+
 Istnieją również `CROSS JOIN` czy `FULL JOIN`, natomiast nie są one powszechnie stosowane.
 
 #### Przykład:
